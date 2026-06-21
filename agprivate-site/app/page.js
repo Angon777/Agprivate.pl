@@ -140,10 +140,6 @@ export default function OldMoneyInsuranceLanding() {
 
             </div>
 
-          </div>
-
-        </div>
-
       </section>
 
       {/* O MNIE */}
