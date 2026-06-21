@@ -171,7 +171,6 @@ const profit = futureValue - totalDeposits
     <option value={6}>6% rocznie</option>
   </select>
 </div>
-        </label>
 
         <input
           type="number"
