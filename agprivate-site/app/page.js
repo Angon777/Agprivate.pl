@@ -41,7 +41,7 @@ const profit = futureValue - totalDeposits
 
     <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.25),transparent_55%)]" />
 
-    <div className="relative max-w-7xl mx-auto px-6 py-14 lg:py-18 grid lg:grid-cols-2 gap-14 items-center">
+    <div className="relative max-w-7xl mx-auto px-6 py-8 lg:py-10 grid lg:grid-cols-2 gap-14 items-center">
 
       <div>
 
@@ -49,7 +49,7 @@ const profit = futureValue - totalDeposits
           AG Private Advisory
         </div>
 
-        <h1 className="text-5xl lg:text-7xl font-light leading-tight tracking-tight">
+        <h1 className="text-4xl lg:text-5xl font-light leading-tight tracking-tight">
           Bezpieczeństwo finansowe
           <span className="block text-[#d4b77c] italic mt-2">
             na pokolenia
@@ -73,7 +73,7 @@ const profit = futureValue - totalDeposits
 
           <a
             href="#oferta"
-            className="px-8 py-4 rounded-2xl border border-white/30 bg-white/5 backdrop-blur text-lg"
+            className="px-6 py-4 rounded-2xl border border-white/30 bg-white/5 backdrop-blur text-lg"
           >
             Zobacz ofertę
           </a>
@@ -89,7 +89,7 @@ const profit = futureValue - totalDeposits
           <img
             src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop"
             alt="AG Private Advisory"
-            className="w-full h-[650px] object-cover"
+            className="w-full h-[320px] object-cover"
           />
 
         </div>
@@ -103,7 +103,7 @@ const profit = futureValue - totalDeposits
   {/* OFERTA */}
   <section className="max-w-6xl mx-auto px-6 py-12">
 
-  <div className="bg-white rounded-[40px] border border-[#e4d4b4] shadow-xl p-10">
+  <div className="bg-white rounded-[40px] border border-[#e4d4b4] shadow-xl p-6">
 
     <h2 className="text-4xl text-center mb-4">
       Symulator Prywatnej Emerytury
@@ -213,42 +213,42 @@ const profit = futureValue - totalDeposits
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-4 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Prywatna Emerytura</h3>
         <p>
           Budowanie kapitału z wykorzystaniem procentu składanego.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-4 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Ubezpieczenie na Życie</h3>
         <p>
           Ochrona finansowa dla Ciebie i Twojej rodziny.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-4 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Polisa dla Dziecka</h3>
         <p>
           Zabezpieczenie przyszłości i edukacji dziecka.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-4 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Pakiety Medyczne</h3>
         <p>
           Prywatna opieka medyczna dla rodzin i firm.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-4 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Ochrona Firmy</h3>
         <p>
           Zabezpieczenie przedsiębiorców i wspólników.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-4 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Sukcesja Majątku</h3>
         <p>
           Bezpieczne przekazanie majątku kolejnym pokoleniom.
@@ -263,7 +263,7 @@ const profit = futureValue - totalDeposits
 
   <section className="max-w-6xl mx-auto px-6 py-10">
 
-    <div className="bg-white rounded-[40px] border border-[#e4d4b4] shadow-xl p-10">
+    <div className="bg-white rounded-[40px] border border-[#e4d4b4] shadow-xl p-6">
 
       <h2 className="text-4xl text-center mb-10">
         Dokończ zdanie
@@ -332,7 +332,7 @@ const profit = futureValue - totalDeposits
 
       <div className="grid lg:grid-cols-2">
 
-        <div className="p-5 lg:p-10 bg-[#f9f6ef]">
+        <div className="p-4 lg:p-6 bg-[#f9f6ef]">
 
           <div className="uppercase tracking-[0.35em] text-sm text-[#8b6b35]">
             Kontakt
@@ -363,7 +363,7 @@ const profit = futureValue - totalDeposits
 
         </div>
 
-        <div className="bg-[#111827] p-12 lg:p-16 text-white flex items-center">
+        <div className="bg-[#111827] p-5 lg:p-6 text-white flex items-center">
 
           <div className="text-3xl font-light leading-relaxed">
             „Prawdziwe bezpieczeństwo finansowe buduje się latami —
