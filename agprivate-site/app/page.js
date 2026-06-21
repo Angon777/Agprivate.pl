@@ -136,9 +136,11 @@ export default function OldMoneyInsuranceLanding() {
                   className="w-full h-[320px] object-cover"
                 />
 
-              </div>
-
             </div>
+
+          </div>
+
+        </div>
 
       </section>
 
