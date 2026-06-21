@@ -205,8 +205,11 @@ const profit = futureValue - totalDeposits
     <option value={0}>Bez zwiększania</option>
     <option value={3}>3% rocznie</option>
     <option value={6}>6% rocznie</option>
-  </select>
+</select>
 </div>
+
+</div>
+
 <div className="mt-12 grid md:grid-cols-3 gap-6">
 
   <div className="bg-[#f8f5ee] p-6 rounded-2xl">
