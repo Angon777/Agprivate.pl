@@ -18,6 +18,21 @@ const totalDeposits = monthly * months
 const profit = futureValue - totalDeposits
   return (
   <div className="min-h-screen bg-[#f5f1e8] text-[#1f2937] font-serif">
+    <div className="bg-[#0f172a] text-white text-sm">
+  <div className="max-w-7xl mx-auto px-6 py-2 flex flex-wrap gap-4 justify-center">
+    <a href="tel:+48508235474">
+      📞 +48 508 235 474
+    </a>
+
+    <a href="https://wa.me/48508235474" target="_blank">
+      WhatsApp
+    </a>
+
+    <a href="mailto:kontakt@agprivate.pl">
+      kontakt@agprivate.pl
+    </a>
+  </div>
+</div>
 
 
   {/* HERO */}
@@ -26,7 +41,7 @@ const profit = futureValue - totalDeposits
 
     <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.25),transparent_55%)]" />
 
-    <div className="relative max-w-7xl mx-auto px-6 py-24 lg:py-32 grid lg:grid-cols-2 gap-14 items-center">
+    <div className="relative max-w-7xl mx-auto px-6 py-14 lg:py-18 grid lg:grid-cols-2 gap-14 items-center">
 
       <div>
 
@@ -86,7 +101,7 @@ const profit = futureValue - totalDeposits
   </section>
 
   {/* OFERTA */}
-  <section className="max-w-6xl mx-auto px-6 py-24">
+  <section className="max-w-6xl mx-auto px-6 py-12">
 
   <div className="bg-white rounded-[40px] border border-[#e4d4b4] shadow-xl p-10">
 
@@ -181,7 +196,7 @@ const profit = futureValue - totalDeposits
 
   <section
     id="oferta"
-    className="max-w-7xl mx-auto px-6 py-24"
+    className="max-w-7xl mx-auto px-6 py-12"
   >
 
     <div className="text-center mb-16">
@@ -198,42 +213,42 @@ const profit = futureValue - totalDeposits
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-      <div className="bg-white rounded-3xl p-8 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Prywatna Emerytura</h3>
         <p>
           Budowanie kapitału z wykorzystaniem procentu składanego.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-8 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Ubezpieczenie na Życie</h3>
         <p>
           Ochrona finansowa dla Ciebie i Twojej rodziny.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-8 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Polisa dla Dziecka</h3>
         <p>
           Zabezpieczenie przyszłości i edukacji dziecka.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-8 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Pakiety Medyczne</h3>
         <p>
           Prywatna opieka medyczna dla rodzin i firm.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-8 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Ochrona Firmy</h3>
         <p>
           Zabezpieczenie przedsiębiorców i wspólników.
         </p>
       </div>
 
-      <div className="bg-white rounded-3xl p-8 shadow-xl border border-[#e4d4b4]">
+      <div className="bg-white rounded-3xl p-5 shadow-xl border border-[#e4d4b4]">
         <h3 className="text-2xl mb-4">Sukcesja Majątku</h3>
         <p>
           Bezpieczne przekazanie majątku kolejnym pokoleniom.
@@ -246,7 +261,7 @@ const profit = futureValue - totalDeposits
 
   {/* DOKOŃCZ ZDANIE */}
 
-  <section className="max-w-6xl mx-auto px-6 py-20">
+  <section className="max-w-6xl mx-auto px-6 py-10">
 
     <div className="bg-white rounded-[40px] border border-[#e4d4b4] shadow-xl p-10">
 
@@ -317,7 +332,7 @@ const profit = futureValue - totalDeposits
 
       <div className="grid lg:grid-cols-2">
 
-        <div className="p-12 lg:p-16 bg-[#f9f6ef]">
+        <div className="p-5 lg:p-10 bg-[#f9f6ef]">
 
           <div className="uppercase tracking-[0.35em] text-sm text-[#8b6b35]">
             Kontakt
