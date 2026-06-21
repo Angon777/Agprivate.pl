@@ -168,6 +168,21 @@ const profit = futureValue - totalDeposits
 
     </div>
 
+            <div>
+  <label className="block mb-2">
+    Indeksacja składki
+  </label>
+
+  <select
+    value={indexation}
+    onChange={(e) => setIndexation(Number(e.target.value))}
+    className="w-full border rounded-xl p-3"
+  >
+    <option value={0}>Brak</option>
+    <option value={3}>3% rocznie</option>
+    <option value={6}>6% rocznie</option>
+  </select>
+</div>
     <div className="mt-12 grid md:grid-cols-3 gap-6">
 
       <div className="bg-[#f8f5ee] p-6 rounded-2xl">
