@@ -97,6 +97,10 @@ export default function OldMoneyInsuranceLanding() {
                 bezpieczeństwo finansowe poprzez odpowiednio
                 dobrane rozwiązania emerytalne, ochronę życia,
                 zabezpieczenie dzieci oraz prywatną opiekę medyczną.
+                Bez zobowiązań. 
+                Bez skomplikowanego języka. 
+                Z planem dopasowanym do Twojej sytuacji i celów.
+                  
               </p>
 
               <div className="mt-6 flex flex-wrap gap-4">
@@ -165,22 +169,33 @@ export default function OldMoneyInsuranceLanding() {
               </h2>
 
               <p className="mb-4 text-lg leading-relaxed">
-                AG Private to indywidualne doradztwo finansowe
-                skierowane do osób, które chcą świadomie budować
-                majątek i bezpieczeństwo swojej rodziny.
+               Pomagam rodzinom, przedsiębiorcom i osobom prywatnym budować 
+               bezpieczeństwo finansowe na lata.
               </p>
 
               <p className="mb-4 text-lg leading-relaxed">
-                W swojej pracy koncentruję się na rozwiązaniach
-                długoterminowych — ochronie życia, prywatnych
-                emeryturach, zabezpieczeniu dzieci oraz sukcesji
-                majątku.
+               Wspólnie dobieramy rozwiązania, które chronią najbliższych, 
+               pozwalają systematycznie budować kapitał oraz przygotować się 
+               na przyszłość bez pozostawiania ważnych decyzji przypadkowi.
+              </p>
+                 
+              <p className="mb-4 text-lg leading-relaxed">
+               Specjalizuję się w prywatnych programach emerytalnych, 
+               ochronie życia i zdrowia, 
+               zabezpieczeniu dzieci oraz 
+               długoterminowym budowaniu majątku.
               </p>
 
               <p className="text-lg leading-relaxed">
                 Współpracuję z PZU — jedną z najbardziej rozpoznawalnych
                 i zaufanych instytucji finansowych w Polsce,
                 posiadającą ponad 200-letnią historię działalności.
+              </p>
+
+               <p className="text-lg leading-relaxed">
+                Moim celem nie jest sprzedaż pojedynczego produktu, 
+                lecz stworzenie planu, który będzie wspierał Ciebie i 
+                Twoją rodzinę przez wiele lat.
               </p>
 
             </div>
