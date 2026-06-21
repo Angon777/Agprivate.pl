@@ -154,16 +154,6 @@ export default function OldMoneyInsuranceLanding() {
 
           <div className="grid lg:grid-cols-3 gap-8 items-center">
 
-            <div className="flex justify-center">
-
-              <img
-                src="/LOGO.png"
-                alt="AG Private"
-                className="max-h-[260px] w-auto"
-              />
-
-            </div>
-
             <div className="lg:col-span-2">
 
               <h2 className="text-4xl mb-6">
