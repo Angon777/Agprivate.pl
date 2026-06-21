@@ -125,7 +125,7 @@ const profit = futureValue - totalDeposits
       Sprawdź ile możesz zgromadzić dzięki regularnemu oszczędzaniu.
     </p>
 
-    <div className="grid md:grid-cols-4 gap-6">
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
       <div>
         <label className="block mb-2">
