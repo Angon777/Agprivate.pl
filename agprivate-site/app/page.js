@@ -51,8 +51,8 @@ export default function OldMoneyInsuranceLanding() {
             WhatsApp
           </a>
 
-          <a href="mailto:agprivate@gmail.com">
-            agprivate@gmail.com
+          <a href="mailto:agprivate.info@gmail.com">
+            agprivate.info@gmail.com
           </a>
 
         </div>
@@ -593,7 +593,7 @@ export default function OldMoneyInsuranceLanding() {
           <div className="flex flex-wrap gap-4 mt-8">
 
             <a
-              href="mailto:agprivate@gmail.com"
+              href="mailto:agprivate.info@gmail.com"
               className="px-6 py-4 rounded-2xl bg-[#d4b77c] text-[#111827]"
             >
               Wyślij zapytanie
@@ -640,7 +640,7 @@ export default function OldMoneyInsuranceLanding() {
 
                 <div>
                   <strong>E-mail:</strong>
-                  {' '}agprivate@gmail.com
+                  {' '}agprivate.info@gmail.com
                 </div>
 
                 <div>
