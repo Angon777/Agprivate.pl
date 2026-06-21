@@ -37,8 +37,8 @@ export default function OldMoneyInsuranceLanding() {
 
       {/* GÓRNY PASEK */}
 
-      <div className="bg-[#0f172a] text-white text-sm">
-        <div className="max-w-7xl mx-auto px-4 py-2 flex flex-wrap justify-center gap-6">
+      <div className="bg-[#0f172a] text-white text-base font-semibold">
+        <div className="max-w-7xl mx-auto px-4 py-2 flex flex-wrap justify-center gap-12">
 
           <a href="tel:+48508235474">
             📞 +48 508 235 474
@@ -47,12 +47,13 @@ export default function OldMoneyInsuranceLanding() {
           <a
             href="https://wa.me/48508235474"
             target="_blank"
+            className="font-semibold text-[#d4b77c]"
           >
             WhatsApp
           </a>
 
           <a href="mailto:agprivate.info@gmail.com">
-            agprivate.info@gmail.com
+           className="font-semibold"
           </a>
 
         </div>
@@ -73,7 +74,7 @@ export default function OldMoneyInsuranceLanding() {
                 <img
                   src="/LOGO-solo.png"
                   alt="AG Private"
-                  className="h-32 w-auto"
+                  className="h-40 w-auto"
                 />
 
                 <div>
