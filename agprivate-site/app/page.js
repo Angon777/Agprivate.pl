@@ -187,13 +187,13 @@ export default function OldMoneyInsuranceLanding() {
                długoterminowym budowaniu majątku.
               </p>
 
-              <p className="text-lg leading-relaxed">
+              <p className="mb-4 text-lg leading-relaxed">
                 Współpracuję z PZU — jedną z najbardziej rozpoznawalnych
                 i zaufanych instytucji finansowych w Polsce,
                 posiadającą ponad 200-letnią historię działalności.
               </p>
 
-               <p className="text-lg leading-relaxed">
+               <p className="mb-4 text-lg leading-relaxed">
                 Moim celem nie jest sprzedaż pojedynczego produktu, 
                 lecz stworzenie planu, który będzie wspierał Ciebie i 
                 Twoją rodzinę przez wiele lat.
