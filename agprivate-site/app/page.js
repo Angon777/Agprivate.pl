@@ -155,7 +155,6 @@ export default function OldMoneyInsuranceLanding() {
           <div className="max-w-4xl mx-auto">
 
             <div>
-
               <h2 className="text-4xl mb-6">
                 O mnie
               </h2>
