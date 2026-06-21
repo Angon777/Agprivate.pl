@@ -45,9 +45,13 @@ const profit = futureValue - totalDeposits
 
       <div>
 
-        <div className="inline-flex items-center gap-2 border border-[#d4c5a2]/50 bg-white/5 backdrop-blur px-4 py-2 rounded-full text-sm tracking-wide text-[#e7d7b5] mb-6">
-          AG Private Advisory
-        </div>
+<div className="mb-4">
+  <img
+    src="/logo-solo.png"
+    alt="AG Private Advisory"
+    className="h-20 w-auto"
+  />
+</div>
 
         <h1 className="text-4xl lg:text-5xl font-light leading-tight tracking-tight">
           Bezpieczeństwo finansowe
