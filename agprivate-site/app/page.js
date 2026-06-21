@@ -53,6 +53,7 @@ export default function OldMoneyInsuranceLanding() {
           </a>
 
           <a href="mailto:agprivate.info@gmail.com">
+           agprivate.info@gmail.com
            className="font-semibold"
           </a>
 
