@@ -357,7 +357,7 @@ export default function OldMoneyInsuranceLanding() {
 
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
 
           <div className="bg-white p-6 rounded-3xl border border-[#e4d4b4] shadow-lg">
 
