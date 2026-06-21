@@ -572,7 +572,7 @@ export default function OldMoneyInsuranceLanding() {
 
             <input
               type="text"
-              placeholder="Imię"
+              placeholder="Imię i Nazwisko"
               className="border rounded-xl p-3"
             />
 
@@ -612,100 +612,24 @@ export default function OldMoneyInsuranceLanding() {
         </div>
 
       </section>
+                
+<footer className="text-center py-16">
 
-      {/* KONTAKT */}
+  <div className="text-xl mb-4 text-[#8b6b35]">
+    „Prawdziwe bezpieczeństwo finansowe buduje się latami — poprzez konsekwencję, odpowiedzialność i dobre decyzje.”
+  </div>
 
-      <section className="max-w-7xl mx-auto px-6 pb-10">
+  <div className="text-sm text-gray-500 mt-8">
+    AG Private
+  </div>
 
-        <div className="bg-white rounded-[32px] border border-[#e4d4b4] shadow-xl overflow-hidden">
+  <div className="text-sm text-gray-400 mt-2">
+    © 2026 Wszystkie prawa zastrzeżone
+  </div>
 
-          <div className="grid lg:grid-cols-2">
+</footer>
 
-            <div className="p-8 bg-[#f9f6ef]">
 
-              <div className="uppercase tracking-[0.3em] text-sm text-[#8b6b35]">
-                Kontakt
-              </div>
-
-              <h2 className="text-4xl mt-4 mb-6">
-                Umów bezpłatną konsultację
-              </h2>
-nie 
-              <div className="space-y-4 text-lg">
-
-                <div>
-                  <strong>Telefon:</strong>
-                  {' '}+48 508 235 474
-                </div>
-
-                <div>
-                  <strong>E-mail:</strong>
-                  {' '}agprivate.info@gmail.com
-                </div>
-
-                <div>
-                  <strong>Obsługa:</strong>
-                  {' '}cała Polska • online
-                </div>
-
-              </div>
-
-            </div>
-
-                                <div className="p-8">
-
-              <input
-                type="text"
-                placeholder="Imię i nazwisko"
-                className="w-full border rounded-xl p-4 mb-4"
-              />
-
-              <input
-                type="tel"
-                placeholder="Telefon"
-                className="w-full border rounded-xl p-4 mb-4"
-              />
-
-              <input
-                type="email"
-                placeholder="Adres e-mail"
-                className="w-full border rounded-xl p-4 mb-4"
-              />
-
-              <textarea
-                placeholder="W czym mogę pomóc?"
-                rows="6"
-                className="w-full border rounded-xl p-4 mb-4"
-              />
-
-              <button
-                className="w-full bg-[#d4b77c] text-[#111827] py-4 rounded-2xl font-medium"
-              >
-                Wyślij zapytanie
-              </button>
-
-            </div>
-            <div className="bg-[#111827] text-white p-8 flex items-center">
-
-              <div>
-
-                <div className="text-3xl leading-relaxed">
-
-                  „Prawdziwe bezpieczeństwo finansowe
-                  buduje się latami — poprzez konsekwencję,
-                  odpowiedzialność i dobre decyzje.”
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
 
     </div>
   )
