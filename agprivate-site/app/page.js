@@ -41,7 +41,7 @@ const profit = futureValue - totalDeposits
 
     <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.25),transparent_55%)]" />
 
-    <div className="relative max-w-7xl mx-auto px-6 py-8 lg:py-10 grid lg:grid-cols-2 gap-14 items-center">
+    <div className="relative max-w-7xl mx-auto px-6 py-4 lg:py-6 grid lg:grid-cols-2 gap-14 items-center">
 
       <div>
 
@@ -53,7 +53,7 @@ const profit = futureValue - totalDeposits
   />
 </div>
 
-        <h1 className="text-4xl lg:text-5xl font-light leading-tight tracking-tight">
+        <h1 className="text-3xl lg:text-4xl font-light leading-tight tracking-tight">
           Bezpieczeństwo finansowe
           <span className="block text-[#d4b77c] italic mt-2">
             na pokolenia
@@ -93,7 +93,7 @@ const profit = futureValue - totalDeposits
           <img
             src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop"
             alt="AG Private Advisory"
-            className="w-full h-[320px] object-cover"
+            className="w-full h-[220px] object-cover"
           />
 
         </div>
@@ -203,7 +203,7 @@ const profit = futureValue - totalDeposits
     className="max-w-7xl mx-auto px-6 py-12"
   >
 
-    <div className="text-center mb-16">
+    <div className="text-center mb-8">
 
       <h2 className="text-5xl font-light">
         Oferta
@@ -290,7 +290,7 @@ const profit = futureValue - totalDeposits
       </div>
 
       <textarea
-        rows="6"
+        rows="4"
         placeholder="Napisz czego potrzebujesz..."
         className="w-full border rounded-2xl p-4"
       />
@@ -330,7 +330,7 @@ const profit = futureValue - totalDeposits
 
   {/* KONTAKT */}
 
-  <section className="max-w-6xl mx-auto px-6 pb-24">
+  <section className="max-w-6xl mx-auto px-6 pb-10">
 
     <div className="bg-white rounded-[40px] border border-[#e4d4b4] shadow-2xl overflow-hidden">
 
