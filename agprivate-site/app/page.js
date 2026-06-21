@@ -156,21 +156,7 @@ const profit = futureValue - totalDeposits
       <div>
         <label className="block mb-2">
           Średnia stopa zwrotu (%)
-            <div>
-  <label className="block mb-2">
-    Indeksacja składki
-  </label>
-
-  <select
-    value={indexation}
-    onChange={(e) => setIndexation(Number(e.target.value))}
-    className="w-full border rounded-xl p-3"
-  >
-    <option value={0}>Brak</option>
-    <option value={3}>3% rocznie</option>
-    <option value={6}>6% rocznie</option>
-  </select>
-</div>
+        </label>
 
         <input
           type="number"
