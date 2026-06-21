@@ -190,7 +190,7 @@ export default function OldMoneyInsuranceLanding() {
         </div>
 
       </section>
-        {/* KALKULATOR */}
+      {/* KALKULATOR */}
 
       <section
         id="kalkulator"
