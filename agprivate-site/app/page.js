@@ -3,19 +3,33 @@
 import { useState } from 'react'
 
 export default function OldMoneyInsuranceLanding() {
-  const [monthly, setMonthly] = useState(500)
-const [years, setYears] = useState(30)
+const [monthly, setMonthly] = useState(500)
+const [age, setAge] = useState(35)
+const [retirementAge, setRetirementAge] = useState(65)
 const [rate, setRate] = useState(8)
 const [indexation, setIndexation] = useState(0)
+const years = retirementAge - age
 
 const monthlyRate = rate / 100 / 12
-const months = years * 12
 
-const futureValue =
-  monthly *
-  ((Math.pow(1 + monthlyRate, months) - 1) / monthlyRate)
+let futureValue = 0
+let totalDeposits = 0
+let currentMonthly = monthly
 
-const totalDeposits = monthly * months
+for (let year = 0; year < years; year++) {
+  for (let month = 0; month < 12; month++) {
+    futureValue =
+      (futureValue + currentMonthly) *
+      (1 + monthlyRate)
+
+    totalDeposits += currentMonthly
+  }
+
+  currentMonthly =
+    currentMonthly *
+    (1 + indexation / 100)
+}
+
 const profit = futureValue - totalDeposits
   return (
   <div className="min-h-screen bg-[#f5f1e8] text-[#1f2937] font-serif">
@@ -140,19 +154,32 @@ const profit = futureValue - totalDeposits
         />
       </div>
 
-      <div>
-        <label className="block mb-2">
-          Liczba lat
-        </label>
+<div>
+  <label className="block mb-2">
+    Obecny wiek
+  </label>
 
-        <input
-          type="number"
-          value={years}
-          onChange={(e) => setYears(Number(e.target.value))}
-          className="w-full border rounded-xl p-3"
-        />
-      </div>
+  <input
+    type="number"
+    value={age}
+    onChange={(e) => setAge(Number(e.target.value))}
+    className="w-full border rounded-xl p-3"
+  />
+</div>
 
+<div>
+  <label className="block mb-2">
+    Wiek przejścia na emeryturę
+  </label>
+
+  <input
+    type="number"
+    value={retirementAge}
+    onChange={(e) => setRetirementAge(Number(e.target.value))}
+    className="w-full border rounded-xl p-3"
+  />
+</div>
+      
       <div>
         <label className="block mb-2">
           Średnia stopa zwrotu (%)
@@ -165,12 +192,9 @@ const profit = futureValue - totalDeposits
           className="w-full border rounded-xl p-3"
         />
       </div>
-
-    </div>
-
-            <div>
+<div>
   <label className="block mb-2">
-    Indeksacja składki
+    Wzrost wpłat co rok
   </label>
 
   <select
@@ -178,14 +202,14 @@ const profit = futureValue - totalDeposits
     onChange={(e) => setIndexation(Number(e.target.value))}
     className="w-full border rounded-xl p-3"
   >
-    <option value={0}>Brak</option>
+    <option value={0}>Bez zwiększania</option>
     <option value={3}>3% rocznie</option>
     <option value={6}>6% rocznie</option>
   </select>
 </div>
-    <div className="mt-12 grid md:grid-cols-3 gap-6">
+<div className="mt-12 grid md:grid-cols-3 gap-6">
 
-      <div className="bg-[#f8f5ee] p-6 rounded-2xl">
+  <div className="bg-[#f8f5ee] p-6 rounded-2xl">
         <div className="text-gray-500">
           Suma wpłat
         </div>
