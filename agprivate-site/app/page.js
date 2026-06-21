@@ -152,7 +152,7 @@ export default function OldMoneyInsuranceLanding() {
 
         <div className="bg-white rounded-[32px] border border-[#e4d4b4] shadow-xl p-8">
 
-          <div className="grid lg:grid-cols-3 gap-8 items-center">
+          <div className="max-w-4xl mx-auto">
 
             <div className="lg:col-span-2">
 
