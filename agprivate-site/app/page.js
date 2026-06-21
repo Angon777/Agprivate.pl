@@ -73,7 +73,7 @@ export default function OldMoneyInsuranceLanding() {
               <div className="flex items-center gap-6">
 
                 <img
-                  src="/LOGO-solo.png"
+                  src="/LOGO-gold.png"
                   alt="AG Private"
                   className="h-40 w-auto"
                 />
@@ -156,10 +156,6 @@ export default function OldMoneyInsuranceLanding() {
 
             <div className="flex justify-center">
 
-              <img
-                src="/LOGO.png"
-                alt="AG Private"
-                className="max-h-[260px] w-auto"
               />
 
             </div>
