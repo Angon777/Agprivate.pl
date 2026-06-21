@@ -6,6 +6,7 @@ export default function OldMoneyInsuranceLanding() {
   const [monthly, setMonthly] = useState(500)
 const [years, setYears] = useState(30)
 const [rate, setRate] = useState(8)
+const [indexation, setIndexation] = useState(0)
 
 const monthlyRate = rate / 100 / 12
 const months = years * 12
@@ -124,7 +125,7 @@ const profit = futureValue - totalDeposits
       Sprawdź ile możesz zgromadzić dzięki regularnemu oszczędzaniu.
     </p>
 
-    <div className="grid md:grid-cols-3 gap-6">
+    <div className="grid md:grid-cols-4 gap-6">
 
       <div>
         <label className="block mb-2">
@@ -155,6 +156,21 @@ const profit = futureValue - totalDeposits
       <div>
         <label className="block mb-2">
           Średnia stopa zwrotu (%)
+            <div>
+  <label className="block mb-2">
+    Indeksacja składki
+  </label>
+
+  <select
+    value={indexation}
+    onChange={(e) => setIndexation(Number(e.target.value))}
+    className="w-full border rounded-xl p-3"
+  >
+    <option value={0}>Brak</option>
+    <option value={3}>3% rocznie</option>
+    <option value={6}>6% rocznie</option>
+  </select>
+</div>
         </label>
 
         <input
