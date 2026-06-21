@@ -47,7 +47,7 @@ const profit = futureValue - totalDeposits
 
 <div className="mb-4">
   <img
-    src="/logo-solo.png"
+    src="/LOGO-solo.png"
     alt="AG Private Advisory"
     className="h-20 w-auto"
   />
