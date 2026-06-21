@@ -52,9 +52,11 @@ export default function OldMoneyInsuranceLanding() {
             WhatsApp
           </a>
 
-          <a href="mailto:agprivate.info@gmail.com">
-           agprivate.info@gmail.com
-           className="font-semibold"
+          <a
+            href="mailto:agprivate.info@gmail.com"
+            className="font-semibold"
+          >
+            agprivate.info@gmail.com
           </a>
 
         </div>
@@ -139,6 +141,8 @@ export default function OldMoneyInsuranceLanding() {
             </div>
 
           </div>
+
+        </div>
 
         </div>
 
