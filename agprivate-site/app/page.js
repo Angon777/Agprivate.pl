@@ -106,7 +106,7 @@ export default function OldMoneyInsuranceLanding() {
                   target="_blank"
                   className="px-6 py-4 rounded-2xl bg-[#d4b77c] text-[#111827] font-medium"
                 >
-                  Umów konsultację
+                  Sprawdź jakie rozwiązanie będzie najlepsze dla Ciebie
                 </a>
 
                 <a
