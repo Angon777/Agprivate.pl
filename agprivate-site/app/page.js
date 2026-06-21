@@ -43,22 +43,29 @@ const profit = futureValue - totalDeposits
 
     <div className="relative max-w-7xl mx-auto px-6 py-4 lg:py-6 grid lg:grid-cols-2 gap-14 items-center">
 
-      <div>
+<div>
 
-<div className="mb-4">
-  <img
-    src="/LOGO-solo.png"
-    alt="AG Private Advisory"
-    className="h-20 w-auto"
-  />
-</div>
+  <div className="flex items-center gap-6 mb-6">
 
-        <h1 className="text-3xl lg:text-4xl font-light leading-tight tracking-tight">
-          Bezpieczeństwo finansowe
-          <span className="block text-[#d4b77c] italic mt-2">
-            na pokolenia
-          </span>
-        </h1>
+    <img
+      src="/LOGO-solo.png"
+      alt="AG Private Advisory"
+      className="h-32 w-auto"
+    />
+
+    <div>
+
+      <h1 className="text-4xl lg:text-5xl font-light leading-tight tracking-tight">
+        Bezpieczeństwo finansowe
+      </h1>
+
+      <div className="text-[#d4b77c] italic text-4xl lg:text-5xl mt-1">
+        na pokolenia
+      </div>
+
+    </div>
+
+  </div>
 
         <p className="mt-8 text-lg text-slate-300 leading-relaxed max-w-xl">
           Prywatne doradztwo finansowe, ubezpieczenia na życie,
