@@ -202,12 +202,12 @@ export default function OldMoneyInsuranceLanding() {
           <div className="text-center mb-8">
 
             <h2 className="text-4xl mb-3">
-              Symulator Prywatnej Emerytury
+              Kalkulator Budowy Kapitału
             </h2>
 
             <p className="text-gray-600 text-lg">
-              Sprawdź jak regularne odkładanie środków może wpłynąć
-              na wartość Twojego kapitału w przyszłości.
+              Sprawdź jak regularne oszczędzanie może budować kapitał dla Ciebie,
+              Twojego dziecka lub przyszłości całej rodziny.
             </p>
 
           </div>
@@ -340,7 +340,33 @@ export default function OldMoneyInsuranceLanding() {
             Kalkulacja ma charakter poglądowy i nie stanowi
             oferty ani gwarancji osiągnięcia określonych wyników.
           </p>
+<div className="mt-6 text-center text-gray-600">
 
+  <p className="font-medium mb-3">
+    Przykładowe zastosowania:
+  </p>
+
+  <div className="flex flex-wrap justify-center gap-3 text-sm">
+
+    <span className="bg-[#f8f5ee] px-3 py-2 rounded-xl">
+      Kapitał dla dziecka
+    </span>
+
+    <span className="bg-[#f8f5ee] px-3 py-2 rounded-xl">
+      Prywatna emerytura
+    </span>
+
+    <span className="bg-[#f8f5ee] px-3 py-2 rounded-xl">
+      Zabezpieczenie rodziny
+    </span>
+
+    <span className="bg-[#f8f5ee] px-3 py-2 rounded-xl">
+      Budowa majątku
+    </span>
+
+  </div>
+
+</div>
         </div>
 
       </section>
