@@ -1,4 +1,21 @@
+'use client'
+
+import { useState } from 'react'
+
 export default function OldMoneyInsuranceLanding() {
+  const [monthly, setMonthly] = useState(500)
+const [years, setYears] = useState(30)
+const [rate, setRate] = useState(8)
+
+const monthlyRate = rate / 100 / 12
+const months = years * 12
+
+const futureValue =
+  monthly *
+  ((Math.pow(1 + monthlyRate, months) - 1) / monthlyRate)
+
+const totalDeposits = monthly * months
+const profit = futureValue - totalDeposits
   return (
   <div className="min-h-screen bg-[#f5f1e8] text-[#1f2937] font-serif">
 
@@ -69,6 +86,98 @@ export default function OldMoneyInsuranceLanding() {
   </section>
 
   {/* OFERTA */}
+  <section className="max-w-6xl mx-auto px-6 py-24">
+
+  <div className="bg-white rounded-[40px] border border-[#e4d4b4] shadow-xl p-10">
+
+    <h2 className="text-4xl text-center mb-4">
+      Symulator Prywatnej Emerytury
+    </h2>
+
+    <p className="text-center text-gray-600 mb-10">
+      Sprawdź ile możesz zgromadzić dzięki regularnemu oszczędzaniu.
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-6">
+
+      <div>
+        <label className="block mb-2">
+          Miesięczna wpłata (zł)
+        </label>
+
+        <input
+          type="number"
+          value={monthly}
+          onChange={(e) => setMonthly(Number(e.target.value))}
+          className="w-full border rounded-xl p-3"
+        />
+      </div>
+
+      <div>
+        <label className="block mb-2">
+          Liczba lat
+        </label>
+
+        <input
+          type="number"
+          value={years}
+          onChange={(e) => setYears(Number(e.target.value))}
+          className="w-full border rounded-xl p-3"
+        />
+      </div>
+
+      <div>
+        <label className="block mb-2">
+          Średnia stopa zwrotu (%)
+        </label>
+
+        <input
+          type="number"
+          value={rate}
+          onChange={(e) => setRate(Number(e.target.value))}
+          className="w-full border rounded-xl p-3"
+        />
+      </div>
+
+    </div>
+
+    <div className="mt-12 grid md:grid-cols-3 gap-6">
+
+      <div className="bg-[#f8f5ee] p-6 rounded-2xl">
+        <div className="text-gray-500">
+          Suma wpłat
+        </div>
+
+        <div className="text-3xl mt-2">
+          {Math.round(totalDeposits).toLocaleString('pl-PL')} zł
+        </div>
+      </div>
+
+      <div className="bg-[#f8f5ee] p-6 rounded-2xl">
+        <div className="text-gray-500">
+          Wypracowany zysk
+        </div>
+
+        <div className="text-3xl mt-2 text-green-700">
+          {Math.round(profit).toLocaleString('pl-PL')} zł
+        </div>
+      </div>
+
+      <div className="bg-[#111827] text-white p-6 rounded-2xl">
+        <div className="text-gray-300">
+          Kapitał końcowy
+        </div>
+
+        <div className="text-4xl mt-2 text-[#d4b77c]">
+          {Math.round(futureValue).toLocaleString('pl-PL')} zł
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
   <section
     id="oferta"
