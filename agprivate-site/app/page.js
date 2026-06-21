@@ -67,12 +67,12 @@ const profit = futureValue - totalDeposits
 
   </div>
 
-        <p className="mt-8 text-lg text-slate-300 leading-relaxed max-w-xl">
+        <p className="mt-4 text-lg text-slate-300 leading-relaxed max-w-xl">
           Prywatne doradztwo finansowe, ubezpieczenia na życie,
           prywatne emerytury, polisy dla dzieci i pakiety medyczne.
         </p>
 
-        <div className="mt-10 flex flex-wrap gap-4">
+        <div className="mt-6 flex flex-wrap gap-4">
 
           <a
             href="https://wa.me/48508235474"
