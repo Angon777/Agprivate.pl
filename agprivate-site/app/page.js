@@ -630,7 +630,7 @@ export default function OldMoneyInsuranceLanding() {
               <h2 className="text-4xl mt-4 mb-6">
                 Umów bezpłatną konsultację
               </h2>
-
+nie 
               <div className="space-y-4 text-lg">
 
                 <div>
@@ -652,6 +652,39 @@ export default function OldMoneyInsuranceLanding() {
 
             </div>
 
+                                <div className="p-8">
+
+              <input
+                type="text"
+                placeholder="Imię i nazwisko"
+                className="w-full border rounded-xl p-4 mb-4"
+              />
+
+              <input
+                type="tel"
+                placeholder="Telefon"
+                className="w-full border rounded-xl p-4 mb-4"
+              />
+
+              <input
+                type="email"
+                placeholder="Adres e-mail"
+                className="w-full border rounded-xl p-4 mb-4"
+              />
+
+              <textarea
+                placeholder="W czym mogę pomóc?"
+                rows="6"
+                className="w-full border rounded-xl p-4 mb-4"
+              />
+
+              <button
+                className="w-full bg-[#d4b77c] text-[#111827] py-4 rounded-2xl font-medium"
+              >
+                Wyślij zapytanie
+              </button>
+
+            </div>
             <div className="bg-[#111827] text-white p-8 flex items-center">
 
               <div>
