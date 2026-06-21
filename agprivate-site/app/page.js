@@ -1,11 +1,11 @@
 export default function OldMoneyInsuranceLanding() {
 return (
-
+  <div className="min-h-screen bg-[#f5f1e8] text-[#1f2937] font-serif">
 
 
   {/* HERO */}
 
-  <section className="relative overflow-hidden border-b border-[#d4c5a2] bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#111827] text-white">
+   <section className="relative overflow-hidden border-b border-[#d4c5a2] bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#111827] text-white">
 
     <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.25),transparent_55%)]" />
 
