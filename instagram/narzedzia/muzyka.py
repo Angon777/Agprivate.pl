@@ -14,7 +14,9 @@ def pad(freqs,length):
     env=np.minimum(1,t/1.2)*np.minimum(1,(length-t)/1.2)
     return 0.05*s*env
 def add(buf,sig,start):
-    i=int(start*SR); j=min(len(buf),i+len(sig)); buf[i:j]+=sig[:j-i]
+    i=int(start*SR)
+    if i>=len(buf): return
+    j=min(len(buf),i+len(sig)); buf[i:j]+=sig[:j-i]
 prog=[[57,60,64],[53,57,60],[48,52,55],[55,59,62]]  # Am F C G
 bar=3.0; beat=bar/4
 t=0;k=0
