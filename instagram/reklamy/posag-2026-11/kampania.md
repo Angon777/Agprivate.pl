@@ -7,10 +7,14 @@ Biłgoraj + 40 km, 18+, 20 zł dziennie, test A/B przez 7 dni.
 - reklama-posag-1x1.jpg – Marketplace, prawa kolumna
 - reklama-posag-9x16.jpg – Stories i Reels
 
-Prognoza: wpłaty co miesiąc przez 10 lat, 5% zysku rocznie, waloryzacja wpłat 3% co roku, bez podatku i kosztów.
-- 200 zł: ok. 35 100 zł (wpłaty ok. 27 500 zł)
-- 300 zł: ok. 52 700 zł (wpłaty ok. 41 300 zł)
-- 500 zł: ok. 87 800 zł (wpłaty ok. 68 800 zł)
+Prognoza: 200/300/500 zł co miesiąc przez 120 miesięcy, 5% zysku rocznie, bez waloryzacji, podatku i kosztów.
+- 200 zł: wpłacone 24 000 zł ≈ 31 000 zł
+- 300 zł: wpłacone 36 000 zł ≈ 46 500 zł
+- 500 zł: wpłacone 60 000 zł ≈ 77 500 zł
+
+Klauzula na grafice: Materiał reklamowy, nie stanowi oferty w rozumieniu art. 66 Kodeksu cywilnego. Warunki ubezpieczenia określają OWU i KID. Andrzej Gonczar (AG Impex Andrzej Gonczar), agent ubezpieczeniowy działający w imieniu PZU Życie SA, nr w rejestrze agentów KNF: 11264803/A.
+
+STATUS: WSTRZYMANA do pisemnej zgody PZU Życie (umowa agencyjna § 5 ust. 2 – klauzula marketingowa).
 
 ## Wariant A – historia
 Tekst główny:
@@ -25,8 +29,8 @@ Przycisk: Dowiedz się więcej
 ## Wariant B – wiedza
 Tekst główny:
 3 rzeczy, które warto wiedzieć o odkładaniu dla dziecka:
-1. Czas robi więcej niż kwota. 200 zł przez 10 lat to ok. 35 tys. zł w prognozie.
-2. Waloryzacja sprawia, że wpłaty rosną razem z cenami.
+1. Czas robi więcej niż kwota. 200 zł przez 10 lat to 24 000 zł wpłat i ok. 31 000 zł w prognozie.
+2. Najkrótsza umowa trwa 10 lat, więc to plan, nie skarbonka na wakacje.
 3. Polisa posagowa łączy oszczędzanie z ochroną na wypadek, gdyby rodzica zabrakło.
 Jestem agentem ubezpieczeniowym PZU. Zostaw kontakt, a policzę prognozę dla wybranej kwoty. 👇
 
@@ -42,7 +46,7 @@ Pytanie (wielokrotny wybór): Jaką kwotę miesięcznie chcesz rozważyć? – 2
 Pola: imię, numer telefonu.
 Polityka prywatności: link do agprivate.pl.
 Zgoda RODO: treść od Andrzeja.
-Ekran podziękowania: Dziękuję! Oddzwonię w ciągu 24 godzin z prognozą dla wybranej kwoty. Założenia: 5% zysku rocznie, waloryzacja 3%. To nie jest oferta ani gwarancja wyniku.
+Ekran podziękowania: Dziękuję! Oddzwonię w ciągu 24 godzin z prognozą dla wybranej kwoty. Prognoza przy założeniu 5% zysku rocznie, nie stanowi oferty ani gwarancji wyniku.
 
 ## Ustawienia w Menedżerze reklam
 - Cel: Kontakty, formularz błyskawiczny.
