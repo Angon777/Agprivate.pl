@@ -1,42 +1,49 @@
 <!doctype html><html><head><meta charset="utf-8"><style>
-@font-face{font-family:PF;src:url(pf-l.woff2);font-weight:600}
-@font-face{font-family:PF;src:url(pf.woff2);font-weight:600;unicode-range:U+0100-024F}
 @font-face{font-family:FG;src:url(fg-l.woff2);font-weight:400}
 @font-face{font-family:FG;src:url(fg.woff2);font-weight:400;unicode-range:U+0100-024F}
 @font-face{font-family:FG;src:url(fg6-l.woff2);font-weight:600}
 @font-face{font-family:FG;src:url(fg6.woff2);font-weight:600;unicode-range:U+0100-024F}
 @font-face{font-family:CV;src:url(cv-l.woff2)}
 @font-face{font-family:CV;src:url(cv.woff2);unicode-range:U+0100-024F}
-html,body{margin:0;width:var(--w);height:var(--h);background:#1A2942;color:#F4E1D5;font-family:FG;overflow:hidden}
-body{display:flex;flex-direction:column;justify-content:center;box-sizing:border-box;padding:var(--pt) 78px var(--pb)}
-.ey{font:400 40px CV;color:#C6A15B;transform:rotate(-2deg);margin-bottom:6px}
-h1{font:600 var(--h1)/1.08 PF;margin:0}
-h1 em{font-style:italic;color:#C6A15B}
-.sub{font:400 32px/1.35 FG;color:#D6DEE8;margin:18px 0 var(--gap)}
-.cards{display:flex;flex-direction:var(--dir);gap:22px}
-.c{flex:1;background:#F4E1D5;color:#1A2942;border-radius:22px;padding:26px 26px 24px;position:relative}
-.c .m{font:600 24px FG;letter-spacing:2px;color:#4D75AB;text-transform:uppercase}
-.c .v{font:600 var(--v) PF;margin:8px 0 4px;white-space:nowrap}
-.c .w{font:400 21px FG;color:#4D5A70}
-.c.hot{background:#C6A15B}
-.c.hot .m{color:#1A2942}
-.row{display:var(--row)}
-.cta{display:inline-block;align-self:flex-start;margin-top:var(--gap);background:#C6A15B;color:#1A2942;font:600 32px FG;padding:20px 40px;border-radius:60px}
-.note{font:400 19px/1.45 FG;color:#A0B2C6;margin-top:28px}
-.foot{display:flex;align-items:center;gap:18px;margin-top:30px}
-.foot img{width:58px;height:58px}
-.foot span{font:600 20px FG;letter-spacing:3px;color:#C6A15B}
-.foot .line{height:1px;flex:1;background:rgba(198,161,91,.45)}
+html,body{margin:0;width:var(--w);height:var(--h);overflow:hidden;font-family:FG;color:#1E1B4B}
+body{box-sizing:border-box;padding:var(--pt) 60px var(--pb);display:flex;flex-direction:column;justify-content:center;
+ background:radial-gradient(circle at 85% 8%,#FFF3A3 0 120px,transparent 121px),radial-gradient(circle at 8% 92%,#FF9ECF55 0 160px,transparent 161px),linear-gradient(160deg,#FFD93D 0%,#FFB347 100%)}
+.ey{display:inline-block;align-self:flex-start;background:#1E1B4B;color:#FFD93D;font:600 26px FG;letter-spacing:2px;padding:10px 22px;border-radius:40px;transform:rotate(-2deg)}
+h1{font:600 var(--h1)/1.05 FG;margin:20px 0 var(--gap);letter-spacing:-1px}
+h1 em{font-style:normal;color:#FF3D7F}
+.c{background:#fff;border-radius:28px;padding:var(--cp);margin-bottom:var(--cg);box-shadow:0 10px 0 #1E1B4B22}
+.lab{font:600 24px FG;color:#1E1B4B}
+.lab b{background:#1E1B4B;color:#fff;border-radius:10px;padding:2px 12px;margin-right:8px}
+.eq{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+.n{font:600 var(--v) FG;letter-spacing:-1px;white-space:nowrap;line-height:1}
+.l .n{color:#0E9AA7}
+.r .n{color:#FF3D7F}
+.s{font:400 19px FG;color:#5B5785;margin-top:6px}
+.mid{text-align:center;flex:0 0 auto;padding:0 8px}
+.mid .ap{font:600 72px/0.8 FG;color:#1E1B4B}
+.mid .pc{font:600 15px FG;color:#1E1B4B;background:#FFD93D;border-radius:20px;padding:3px 10px;white-space:nowrap}
+.r{text-align:right}
+.bot{display:flex;align-items:center;gap:26px;margin-top:var(--gap2)}
+.cta{background:#FF3D7F;color:#fff;font:600 34px FG;padding:20px 40px;border-radius:60px;box-shadow:0 8px 0 #B0124F;white-space:nowrap}
+.note{font:400 18px/1.4 FG;color:#3B3766}
+.foot{display:flex;align-items:center;gap:14px;margin-top:22px;font:600 20px FG;letter-spacing:3px;color:#1E1B4B}
+.foot img{width:52px;height:52px;filter:brightness(0.35) saturate(0)}
+.foot .line{height:2px;flex:1;background:#1E1B4B33}
 </style></head><body>
-<div class="ey">Prognoza na 10 lat</div>
-<h1>200, 300 czy <em>500 zł</em> miesięcznie dla dziecka?</h1>
-<p class="sub">Zobacz, ile z tego robi procent składany po 10 latach.</p>
-<div class="cards">
- <div class="c"><div class="m">200 zł / mies.</div><div class="v">ok. 35 100 zł</div><div class="w">wpłaty: ok. 27 500 zł</div></div>
- <div class="c"><div class="m">300 zł / mies.</div><div class="v">ok. 52 700 zł</div><div class="w">wpłaty: ok. 41 300 zł</div></div>
- <div class="c hot"><div class="m">500 zł / mies.</div><div class="v">ok. 87 800 zł</div><div class="w">wpłaty: ok. 68 800 zł</div></div>
-</div>
-<div class="cta">Zostaw kontakt</div>
-<p class="note">Założenia: 5% zysku rocznie, waloryzacja wpłat 3% co roku, wpłaty co miesiąc przez 10 lat, bez podatku i kosztów produktu. To nie jest oferta ani gwarancja wyniku.</p>
-<div class="foot"><img src="logo-t.png"><span>PRIVATE.AGENT</span><div class="line"></div><span>ANDRZEJ GONCZAR</span></div>
+<div class="ey">PROGNOZA NA 10 LAT</div>
+<h1><em>200, 300 czy 500 zł</em> miesięcznie dla dziecka?</h1>
+<div class="c"><div class="lab"><b>200 zł</b>miesięcznie</div><div class="eq">
+ <div class="l"><div class="n">27 500 zł</div><div class="s">wpłacone</div></div>
+ <div class="mid"><div class="ap">≈</div><div class="pc">+ procent składany</div></div>
+ <div class="r"><div class="n">35 100 zł</div><div class="s">po 10 latach</div></div></div></div>
+<div class="c"><div class="lab"><b>300 zł</b>miesięcznie</div><div class="eq">
+ <div class="l"><div class="n">41 300 zł</div><div class="s">wpłacone</div></div>
+ <div class="mid"><div class="ap">≈</div><div class="pc">+ procent składany</div></div>
+ <div class="r"><div class="n">52 700 zł</div><div class="s">po 10 latach</div></div></div></div>
+<div class="c"><div class="lab"><b>500 zł</b>miesięcznie</div><div class="eq">
+ <div class="l"><div class="n">68 800 zł</div><div class="s">wpłacone</div></div>
+ <div class="mid"><div class="ap">≈</div><div class="pc">+ procent składany</div></div>
+ <div class="r"><div class="n">87 800 zł</div><div class="s">po 10 latach</div></div></div></div>
+<div class="bot"><div class="cta">Zostaw kontakt</div><div class="note">Założenia: 120 wpłat, kwota rośnie o 3% co roku (waloryzacja), 5% zysku rocznie, bez podatku i kosztów. To nie jest oferta ani gwarancja wyniku.</div></div>
+<div class="foot"><img src="logo-t.png">PRIVATE.AGENT<div class="line"></div>ANDRZEJ GONCZAR</div>
 </body></html>
