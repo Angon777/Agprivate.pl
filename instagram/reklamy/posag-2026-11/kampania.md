@@ -7,10 +7,10 @@ Biłgoraj + 40 km, 18+, 20 zł dziennie, test A/B przez 7 dni.
 - reklama-posag-1x1.jpg – Marketplace, prawa kolumna
 - reklama-posag-9x16.jpg – Stories i Reels
 
-Prognoza: 200/300/500 zł co miesiąc przez 120 miesięcy, 5% zysku rocznie, bez waloryzacji, podatku i kosztów.
-- 200 zł: wpłacone 24 000 zł ≈ 31 000 zł
-- 300 zł: wpłacone 36 000 zł ≈ 46 500 zł
-- 500 zł: wpłacone 60 000 zł ≈ 77 500 zł
+Prognoza: 200/300/500 zł co miesiąc przez 192 miesiące (16 lat), 5% zysku rocznie, bez waloryzacji, podatku i kosztów.
+- 200 zł: wpłacone 38 400 zł ≈ 58 300 zł
+- 300 zł: wpłacone 57 600 zł ≈ 87 500 zł
+- 500 zł: wpłacone 96 000 zł ≈ 145 800 zł
 
 Klauzula na grafice: Materiał reklamowy, nie stanowi oferty w rozumieniu art. 66 Kodeksu cywilnego. Warunki ubezpieczenia określają OWU i KID. Andrzej Gonczar (AG Impex Andrzej Gonczar), agent ubezpieczeniowy działający w imieniu PZU Życie SA, nr w rejestrze agentów KNF: 11264803/A.
 
@@ -19,7 +19,7 @@ STATUS: WSTRZYMANA do pisemnej zgody PZU Życie (umowa agencyjna § 5 ust. 2 –
 ## Wariant A – historia
 Tekst główny:
 Mój syn studiuje. Co miesiąc to ok. 2000 zł z bieżącego budżetu. Nie żałuję ani złotówki, ale jedną rzecz policzyłem za późno: małe kwoty odkładane wcześnie robią więcej niż duże na ostatnią chwilę.
-Na grafice prognoza dla 200, 300 i 500 zł miesięcznie po 10 latach.
+Na grafice prognoza dla 200, 300 i 500 zł miesięcznie po 16 latach.
 Zostaw kontakt w formularzu, oddzwonię i pokażę, jak to wygląda w polisie posagowej PZU. 👇
 
 Nagłówek: Kapitał dla dziecka na start
@@ -29,13 +29,13 @@ Przycisk: Dowiedz się więcej
 ## Wariant B – wiedza
 Tekst główny:
 3 rzeczy, które warto wiedzieć o odkładaniu dla dziecka:
-1. Czas robi więcej niż kwota. 200 zł przez 10 lat to 24 000 zł wpłat i ok. 31 000 zł w prognozie.
-2. Najkrótsza umowa trwa 10 lat, więc to plan, nie skarbonka na wakacje.
+1. Czas robi więcej niż kwota. 200 zł przez 16 lat to 38 400 zł wpłat i ok. 58 300 zł w prognozie.
+2. Im wcześniej start, tym większą część kwoty końcowej robi procent składany.
 3. Polisa posagowa łączy oszczędzanie z ochroną na wypadek, gdyby rodzica zabrakło.
 Jestem agentem ubezpieczeniowym PZU. Zostaw kontakt, a policzę prognozę dla wybranej kwoty. 👇
 
 Nagłówek: 200, 300 czy 500 zł miesięcznie?
-Opis: Prognoza na 10 lat, bez zobowiązań.
+Opis: Prognoza na 16 lat, bez zobowiązań.
 Przycisk: Dowiedz się więcej
 
 ## Formularz
