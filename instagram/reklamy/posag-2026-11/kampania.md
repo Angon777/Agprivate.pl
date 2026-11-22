@@ -7,10 +7,10 @@ Biłgoraj + 40 km, 18+, 20 zł dziennie, test A/B przez 7 dni.
 - reklama-posag-1x1.jpg – Marketplace, prawa kolumna
 - reklama-posag-9x16.jpg – Stories i Reels
 
-Prognoza: 200/300/500 zł co miesiąc przez 192 miesiące (16 lat), 5% zysku rocznie, bez waloryzacji, podatku i kosztów.
-- 200 zł: wpłacone 38 400 zł ≈ 58 300 zł
-- 300 zł: wpłacone 57 600 zł ≈ 87 500 zł
-- 500 zł: wpłacone 96 000 zł ≈ 145 800 zł
+Prognoza: 200/300/500 zł co miesiąc przez 192 miesiące (16 lat), 4% zysku rocznie po kosztach, bez waloryzacji i podatku.
+- 200 zł: wpłacone 38 400 zł ≈ 53 500 zł
+- 300 zł: wpłacone 57 600 zł ≈ 80 300 zł
+- 500 zł: wpłacone 96 000 zł ≈ 133 800 zł
 
 Klauzula na grafice: Materiał reklamowy, nie stanowi oferty w rozumieniu art. 66 Kodeksu cywilnego. Warunki ubezpieczenia określają OWU i KID. Andrzej Gonczar (AG Impex Andrzej Gonczar), agent ubezpieczeniowy działający w imieniu PZU Życie SA, nr w rejestrze agentów KNF: 11264803/A.
 
@@ -29,7 +29,7 @@ Przycisk: Dowiedz się więcej
 ## Wariant B – wiedza
 Tekst główny:
 3 rzeczy, które warto wiedzieć o odkładaniu dla dziecka:
-1. Czas robi więcej niż kwota. 200 zł przez 16 lat to 38 400 zł wpłat i ok. 58 300 zł w prognozie.
+1. Czas robi więcej niż kwota. 200 zł przez 16 lat to 38 400 zł wpłat i ok. 53 500 zł w prognozie.
 2. Im wcześniej start, tym większą część kwoty końcowej robi procent składany.
 3. Polisa posagowa łączy oszczędzanie z ochroną na wypadek, gdyby rodzica zabrakło.
 Jestem agentem ubezpieczeniowym PZU. Zostaw kontakt, a policzę prognozę dla wybranej kwoty. 👇
@@ -46,7 +46,7 @@ Pytanie (wielokrotny wybór): Jaką kwotę miesięcznie chcesz rozważyć? – 2
 Pola: imię, numer telefonu.
 Polityka prywatności: link do agprivate.pl.
 Zgoda RODO: treść od Andrzeja.
-Ekran podziękowania: Dziękuję! Oddzwonię w ciągu 24 godzin z prognozą dla wybranej kwoty. Prognoza przy założeniu 5% zysku rocznie, nie stanowi oferty ani gwarancji wyniku.
+Ekran podziękowania: Dziękuję! Oddzwonię w ciągu 24 godzin z prognozą dla wybranej kwoty. Prognoza przy założeniu 4% zysku rocznie, nie stanowi oferty ani gwarancji wyniku.
 
 ## Ustawienia w Menedżerze reklam
 - Cel: Kontakty, formularz błyskawiczny.
