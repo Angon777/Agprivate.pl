@@ -19,7 +19,7 @@ STATUS: WSTRZYMANA do pisemnej zgody PZU Życie (umowa agencyjna § 5 ust. 2 –
 ## Wariant A – historia
 Tekst główny:
 Mój syn studiuje. Co miesiąc to ok. 2000 zł z bieżącego budżetu. Nie żałuję ani złotówki, ale jedną rzecz policzyłem za późno: małe kwoty odkładane wcześnie robią więcej niż duże na ostatnią chwilę.
-Na grafice prognoza dla 200, 300 i 500 zł miesięcznie po 16 latach.
+Na grafice prognoza dla 200, 300 i 500 zł miesięcznie po 16 latach. Do tego ochrona życia rodzica od 1. dnia, której zwykła lokata nie daje.
 Zostaw kontakt w formularzu, oddzwonię i pokażę, jak to wygląda w polisie posagowej PZU. 👇
 
 Nagłówek: Kapitał dla dziecka na start
@@ -31,22 +31,27 @@ Tekst główny:
 3 rzeczy, które warto wiedzieć o odkładaniu dla dziecka:
 1. Czas robi więcej niż kwota. 200 zł przez 16 lat to 38 400 zł wpłat i ok. 53 500 zł w prognozie.
 2. Im wcześniej start, tym większą część kwoty końcowej robi procent składany.
-3. Polisa posagowa łączy oszczędzanie z ochroną na wypadek, gdyby rodzica zabrakło.
+3. Polisa posagowa łączy oszczędzanie z ochroną życia rodzica od 1. dnia. Zwykła lokata tego nie daje.
 Jestem agentem ubezpieczeniowym PZU. Zostaw kontakt, a policzę prognozę dla wybranej kwoty. 👇
 
 Nagłówek: 200, 300 czy 500 zł miesięcznie?
 Opis: Prognoza na 16 lat, bez zobowiązań.
 Przycisk: Dowiedz się więcej
 
-## Formularz
-Typ: większa liczba zgłoszeń.
+## Formularz (2 ekrany)
+Typ: **Większa intencja** (klient na końcu potwierdza dane – mniej przypadkowych zgłoszeń, leady od ludzi zdecydowanych).
 Nagłówek: Prognoza dla Twojego dziecka
-Wstęp: Wybierz kwotę, a oddzwonię z prognozą i odpowiem na pytania. Bez zobowiązań.
-Pytanie (wielokrotny wybór): Jaką kwotę miesięcznie chcesz rozważyć? – 200 zł / 300 zł / 500 zł / Inna, porozmawiajmy
-Pola: imię, numer telefonu.
-Polityka prywatności: link do agprivate.pl.
-Zgoda RODO: treść od Andrzeja.
-Ekran podziękowania: Dziękuję! Oddzwonię w ciągu 24 godzin z prognozą dla wybranej kwoty. Prognoza przy założeniu 4% zysku rocznie, nie stanowi oferty ani gwarancji wyniku.
+Wstęp: Wybierz kwotę, a oddzwonię z prognozą na 16 lat. Bez zobowiązań.
+
+Ekran 1 – pytanie (wybór jednej odpowiedzi, wymagane):
+„Ile miesięcznie chcesz odkładać dla dziecka?” – 200 zł / 300 zł / 500 zł
+
+Ekran 2 – dane kontaktowe: imię, numer telefonu.
+Polityka prywatności: link do agprivate.pl. Zgoda RODO: treść od Andrzeja.
+Ekran podziękowania: Dziękuję! Oddzwonię w ciągu 24 godzin z prognozą dla wybranej kwoty. W pakiecie jest też ochrona życia rodzica od 1. dnia. Prognoza przy założeniu 4% zysku rocznie po kosztach, nie stanowi oferty ani gwarancji wyniku.
+
+## Tabela leadów
+leady-posag.xlsx – wgrać do Google Drive jako Arkusz Google, połączyć przez Zapier (Facebook Lead Ads → Google Sheets + powiadomienie e-mail/SMS). Instrukcja w karcie „Instrukcja”.
 
 ## Ustawienia w Menedżerze reklam
 - Cel: Kontakty, formularz błyskawiczny.
