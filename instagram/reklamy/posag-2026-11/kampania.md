@@ -57,6 +57,7 @@ leady-posag.xlsx – wgrać do Google Drive jako Arkusz Google, połączyć prze
 - Cel: Kontakty, formularz błyskawiczny.
 - Kategoria specjalna: Produkty i usługi finansowe (obowiązkowo). Nie da się wtedy zawęzić po płci i wieku.
 - Lokalizacja: Biłgoraj + 40 km. Wiek 18+.
+- Miejsca wyświetlania: Advantage+ (automatycznie FB + IG, Feed, Stories, Reels). Po 7 dniach: Podział → Platforma, porównać koszt leada FB vs IG; przy 2× droższej platformie wyłączyć ją albo dać tam rolkę POSAG.
 - Budżet: 20 zł dziennie, A i B jako osobne reklamy w jednym zestawie (albo test A/B), 7 dni, potem zostaje tańszy koszt kontaktu.
 - Przejrzystość UE: płatnik i beneficjent = Andrzej Gonczar / AG Private.
 - Ulepszenia kreacji Advantage+: wyłączyć „nakładki tekstowe”.
