@@ -1,9 +1,9 @@
 import asyncio, pathlib
 from playwright.async_api import async_playwright
 
-W = pathlib.Path('/home/claude/l4')
+W = pathlib.Path('.').resolve()  # folder roboczy: node_modules (@fontsource), logo-t.png (= logo-zlote.png), logo-navy.png (= logo-granat.png)
 F = 'node_modules/@fontsource'
-Z = '/home/claude/agprivate.pl/instagram/zdjecia'
+Z = str(pathlib.Path(__file__).resolve().parent.parent / 'zdjecia')
 
 CSS = f"""
 @font-face{{font-family:PF;src:url({F}/playfair-display/files/playfair-display-latin-600-normal.woff2);font-weight:600}}
